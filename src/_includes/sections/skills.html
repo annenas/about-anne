@@ -1,0 +1,15 @@
+<section class="mb-20">
+  <h2 class="text-lg md:text-2xl font-semibold mb-1">Skills</h2>
+  <hr class="mb-4 border-zinc-600" />
+  <ul class="flex flex-wrap gap-4">
+    {% for skill in skills %}
+    <li>
+      <h4
+        class="inline-block p-3 border rounded-md bg-zinc-800 border-zinc-600"
+      >
+        {{ skill }}
+      </h4>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
